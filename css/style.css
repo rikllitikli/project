@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.project_header {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+
+}
+
+.project_container {
+    max-width: 1185px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.project_header div a {
+    display: inline-block;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.project_background {
+    background-image: url("../img/project.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.project_id {
+    padding-bottom: 55px;
+}
+
+.project_background_section {
+    background-color: #f9f9f9;
+    padding: 64px 69px;
+    max-width: 1151px;
+    margin: auto;
+    margin-bottom: 104px;
+}
+
+
+.project_flex_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.project_left {
+    margin-right: 55px;
+}
+
+.project_left h1{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 127px;
+    padding-top: 23px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.project_left p {
+    max-width: 662px;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    line-height: 33px;
+    font-family: 'Cardo';
+    font-weight: normal;
+    display: block;
+
+}
+
+.project_left p span {
+    font-weight: bold;
+}
+
+.project_left p:nth-child(3) {
+    margin-bottom: 108px;
+}
+
+
+.project_flex_bottom {
+    max-width: 1151px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_flex_bottom a {
+    border: solid 1px #a1a1a1;
+    padding: 22px 84px;
+    margin-bottom: 73px;
+    color: #a1a1a1;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 41px 0 39px;
+}
+
+.footer {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
