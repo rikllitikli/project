@@ -95,6 +95,12 @@
     margin-bottom: 108px;
 }
 
+.project_left img {
+    width: 100%;
+}
+
+
+
 
 .project_flex_bottom {
     max-width: 1151px;
